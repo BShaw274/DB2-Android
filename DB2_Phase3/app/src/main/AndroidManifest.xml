@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.db2" >
+    package="com.example.db2">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true" >
+        android:usesCleartextTraffic="true">
+        <activity android:name=".StudentRegistration"></activity>
+        <activity android:name=".ParentRegistration" />
         <activity android:name=".EditEmailStudent" />
         <activity android:name=".EditEmailParent" />
         <activity android:name=".EditEmailAdmin" />
@@ -27,7 +29,7 @@
         <activity android:name=".SignInParent" />
         <activity android:name=".SignInAdmin" />
         <activity android:name=".PageAdmin" />
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

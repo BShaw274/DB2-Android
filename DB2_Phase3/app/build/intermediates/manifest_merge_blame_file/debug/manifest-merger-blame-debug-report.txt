@@ -6,93 +6,99 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml
+8-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml
+9-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:7:5-37:19
+13-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:7:5-39:19
 14        android:allowBackup="true"
-14-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:8:9-35
+14-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.0.1] C:\Users\gonth\.gradle\caches\transforms-2\files-2.1\aa782ce88e4a65071c9b22f6f1fd262a\core-1.0.1\AndroidManifest.xml:22:18-86
+15-->[androidx.core:core:1.0.1] C:\Users\mikew\.gradle\caches\transforms-2\files-2.1\aa782ce88e4a65071c9b22f6f1fd262a\core-1.0.1\AndroidManifest.xml:22:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:9:9-43
+17-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:9:9-43
 18        android:label="@string/app_name"
-18-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:10:9-41
+18-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:10:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:11:9-54
+19-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
-20-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:12:9-35
+20-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:12:9-35
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme"
-22-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:13:9-40
+22-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:13:9-40
 23        android:usesCleartextTraffic="true" >
-23-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:14:9-44
-24        <activity android:name="com.example.db2.EditEmailStudent" />
-24-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:15:9-54
-24-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:15:19-51
-25        <activity android:name="com.example.db2.EditEmailParent" />
-25-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:16:9-53
-25-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:16:19-50
-26        <activity android:name="com.example.db2.EditEmailAdmin" />
-26-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:17:9-52
-26-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:17:19-49
-27        <activity android:name="com.example.db2.EditPhoneAdmin" />
-27-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:18:9-52
-27-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:18:19-49
-28        <activity android:name="com.example.db2.EditPhoneParent" />
-28-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:19:9-53
-28-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:19:19-50
-29        <activity android:name="com.example.db2.EditPhoneStudent" />
-29-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:20:9-54
-29-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:20:19-51
-30        <activity android:name="com.example.db2.EditPasswordAdmin" />
-30-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:21:9-55
-30-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:21:19-52
-31        <activity android:name="com.example.db2.EditPasswordParent" />
-31-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:22:9-56
-31-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:22:19-53
-32        <activity android:name="com.example.db2.EditPasswordStudent" />
-32-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:23:9-57
-32-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:23:19-54
-33        <activity android:name="com.example.db2.PageStudent" />
-33-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:24:9-49
-33-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:24:19-46
-34        <activity android:name="com.example.db2.SignInStudent" />
-34-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:25:9-51
-34-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:25:19-48
-35        <activity android:name="com.example.db2.PageParent" />
-35-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:26:9-48
-35-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:26:19-45
-36        <activity android:name="com.example.db2.SignInParent" />
-36-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:27:9-50
-36-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:27:19-47
-37        <activity android:name="com.example.db2.SignInAdmin" />
-37-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:28:9-49
-37-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:28:19-46
-38        <activity android:name="com.example.db2.PageAdmin" />
-38-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:29:9-47
-38-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:29:19-44
-39        <activity android:name="com.example.db2.MainActivity" >
-39-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:30:9-36:20
-39-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:30:19-47
-40            <intent-filter>
-40-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:31:13-35:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:32:17-69
-41-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:32:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:34:17-77
-43-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:34:27-74
-44            </intent-filter>
-45        </activity>
-46    </application>
-47
-48</manifest>
+23-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:14:9-44
+24        <activity android:name="com.example.db2.StudentRegistration" />
+24-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:15:9-66
+24-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:15:19-54
+25        <activity android:name="com.example.db2.ParentRegistration" />
+25-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:16:9-56
+25-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:16:19-53
+26        <activity android:name="com.example.db2.EditEmailStudent" />
+26-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:17:9-54
+26-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:17:19-51
+27        <activity android:name="com.example.db2.EditEmailParent" />
+27-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:18:9-53
+27-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:18:19-50
+28        <activity android:name="com.example.db2.EditEmailAdmin" />
+28-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:19:9-52
+28-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:19:19-49
+29        <activity android:name="com.example.db2.EditPhoneAdmin" />
+29-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:20:9-52
+29-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:20:19-49
+30        <activity android:name="com.example.db2.EditPhoneParent" />
+30-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:21:9-53
+30-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:21:19-50
+31        <activity android:name="com.example.db2.EditPhoneStudent" />
+31-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:22:9-54
+31-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:22:19-51
+32        <activity android:name="com.example.db2.EditPasswordAdmin" />
+32-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:23:9-55
+32-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:23:19-52
+33        <activity android:name="com.example.db2.EditPasswordParent" />
+33-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:24:9-56
+33-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:24:19-53
+34        <activity android:name="com.example.db2.EditPasswordStudent" />
+34-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:25:9-57
+34-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:25:19-54
+35        <activity android:name="com.example.db2.PageStudent" />
+35-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:26:9-49
+35-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:26:19-46
+36        <activity android:name="com.example.db2.SignInStudent" />
+36-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:27:9-51
+36-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:27:19-48
+37        <activity android:name="com.example.db2.PageParent" />
+37-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:28:9-48
+37-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:28:19-45
+38        <activity android:name="com.example.db2.SignInParent" />
+38-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:29:9-50
+38-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:29:19-47
+39        <activity android:name="com.example.db2.SignInAdmin" />
+39-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:30:9-49
+39-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:30:19-46
+40        <activity android:name="com.example.db2.PageAdmin" />
+40-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:31:9-47
+40-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:31:19-44
+41        <activity android:name="com.example.db2.MainActivity" >
+41-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:32:9-38:20
+41-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:32:19-47
+42            <intent-filter>
+42-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:33:13-37:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:34:17-69
+43-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:34:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:36:17-77
+45-->C:\Users\mikew\OneDrive\Documents\Spring_2021_College\Database2\database2_phase3\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:36:27-74
+46            </intent-filter>
+47        </activity>
+48    </application>
+49
+50</manifest>

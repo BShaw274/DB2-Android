@@ -46,5 +46,25 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button paRegisterButton = (Button) findViewById(R.id.paRegisterButton);
+        paRegisterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent paRegisterIntent = new Intent(MainActivity.this, ParentRegistration.class);
+                MainActivity.this.startActivity(paRegisterIntent);
+            }
+        });
+
+        Button stRegisterButton = (Button) findViewById(R.id.stRegisterButton);
+        stRegisterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent stRegisterIntent = new Intent(MainActivity.this, StudentRegistration.class);
+                MainActivity.this.startActivity(stRegisterIntent);
+            }
+        });
+
+
+
     }
 }
