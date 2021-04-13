@@ -1,146 +1,154 @@
 [
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_parent_registration.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_parent_registration.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_password_admin.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_password_admin.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_password_parent.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_password_parent.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_phone_parent.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_phone_parent.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_email_parent.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_email_parent.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in_parent.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_sign_in_parent.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_password_student.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_password_student.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_phone_parent.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_phone_parent.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in_admin.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_sign_in_admin.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_page_student.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_page_student.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_page_parent.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_page_parent.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_email_parent.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_email_parent.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_password_student.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_password_student.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in_admin.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_sign_in_admin.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_password_admin.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_password_admin.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in_parent.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_sign_in_parent.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_phone_student.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_phone_student.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in_student.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_sign_in_student.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in_student.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_sign_in_student.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_email_student.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_email_student.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_student_registration.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_student_registration.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_page_admin.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_page_admin.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_page_student.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_page_student.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_page_admin.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_page_admin.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_phone_admin.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_phone_admin.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_phone_student.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_phone_student.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_email_student.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_email_student.xml"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_email_admin.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_email_admin.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_password_parent.xml.flat",
-        "source": "C:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_password_parent.xml"
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_page_parent.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_page_parent.xml"
+    },
+    {
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_email_admin.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_email_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_phone_admin.xml.flat",
+        "source": "C:\\Users\\mikew\\OneDrive\\Documents\\Spring_2021_College\\Database2\\database2_phase3\\DB2-Android\\DB2_Phase3\\app\\src\\main\\res\\layout\\activity_edit_phone_admin.xml"
     }
 ]

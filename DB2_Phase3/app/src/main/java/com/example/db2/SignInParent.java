@@ -38,7 +38,6 @@ public class SignInParent extends AppCompatActivity {
             public void onClick(View v){
                 String email = etEmail.getText().toString();
                 String password = etPassword.getText().toString();
-
                 Response.Listener<String> responseListener = new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {

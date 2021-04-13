@@ -21,6 +21,8 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.db2.StudentRegistration" />
+        <activity android:name="com.example.db2.ParentRegistration" />
         <activity android:name="com.example.db2.EditEmailStudent" />
         <activity android:name="com.example.db2.EditEmailParent" />
         <activity android:name="com.example.db2.EditEmailAdmin" />

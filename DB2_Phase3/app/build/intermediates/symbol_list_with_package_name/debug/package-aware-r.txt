@@ -651,6 +651,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id Textview
 id Title
 id action_bar
 id action_bar_activity_content
@@ -707,9 +708,15 @@ id editPhoneButton
 id edit_query
 id email
 id end
+id etEmailReg
 id etExistingEmail
 id etExistingPassword
 id etExistingPhone
+id etGrade
+id etNameReg
+id etParentEmail
+id etPasswordReg
+id etPhoneReg
 id expand_activities_button
 id expanded_menu
 id fill
@@ -743,6 +750,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id paRegisterButton
+id paRegisterConfirm
 id paSignInButton
 id packed
 id parent
@@ -783,6 +791,7 @@ id src_atop
 id src_in
 id src_over
 id stRegisterButton
+id stRegisterConfirm
 id stSignInButton
 id standard
 id start
@@ -796,6 +805,8 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
+id textView2
 id textView3
 id textView31
 id textView32
@@ -805,6 +816,10 @@ id textView35
 id textView36
 id textView37
 id textView4
+id textView5
+id textView6
+id textView7
+id textView8
 id time
 id title
 id titleDividerNoCustom
@@ -869,9 +884,11 @@ layout activity_main
 layout activity_page_admin
 layout activity_page_parent
 layout activity_page_student
+layout activity_parent_registration
 layout activity_sign_in_admin
 layout activity_sign_in_parent
 layout activity_sign_in_student
+layout activity_student_registration
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
