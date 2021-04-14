@@ -45,25 +45,50 @@ public class EditEmailStudent extends AppCompatActivity {
         final String phone = intent.getStringExtra("phone");
         final String user = "student";
 
+
         //Confirm button listener
         confirmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 final String NewEmail = etExistEmail.getText().toString();
+                Log.wtf("In onCreate","Here + email "+ NewEmail);
+                System.out.println("In onCreate ,Here + email+ NewEmail");
+                if (NewEmail.matches("")) {
+                    Toast.makeText(EditEmailStudent.this, "You did not enter a email", Toast.LENGTH_SHORT).show();
+                    return;
+                }
 
                 Response.Listener<String> responseListener2 = new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
 
-                        //Create New intent to go back to he PageParent after updating Email
-                        Intent intent = new Intent(EditEmailStudent.this, PageStudent.class);
-                        //Passes values to the new activity
-                        intent.putExtra("name", name );
-                        intent.putExtra("email", NewEmail);
-                        intent.putExtra("password", password);
-                        intent.putExtra("phone", phone);
+                        try {
+                            Log.d("pleaseHelp", response);
+                            Log.d("Follow"," theLeader ");
+                            JSONObject jsonResponse = new JSONObject(response);
+                            boolean success = jsonResponse.getBoolean("success");
 
-                        EditEmailStudent.this.startActivity(intent);
+                            if(success){
+                                Log.d("In IF stmt","In if ");
+                                //Create New intent to go back to he PageParent after updating Email
+                                Intent intent = new Intent(EditEmailStudent.this, PageStudent.class);
+                                //Passes values to the new activity
+                                intent.putExtra("name", name );
+                                intent.putExtra("email", NewEmail);
+                                intent.putExtra("password", password);
+                                intent.putExtra("phone", phone);
+
+                                EditEmailStudent.this.startActivity(intent);
+                            } else{
+                                Log.d("Else stmt","In Else stmt here is success: ");
+                                AlertDialog.Builder builder = new AlertDialog.Builder(EditEmailStudent.this);
+                                builder.setMessage("New Email is invalid, make sure the email is not already linked to an account.").setNegativeButton("Retry", null).create().show();
+                            }
+                        } catch (JSONException e) {
+                            Log.d("Catch stmt","We catch these");
+                            e.printStackTrace();
+                        }
+
                     }
                 };
                 //Uses my EditEmailRequest.java file to pass New and Old Emails to update the account
