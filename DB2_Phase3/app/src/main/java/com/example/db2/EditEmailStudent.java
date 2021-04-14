@@ -33,7 +33,7 @@ public class EditEmailStudent extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit_email_parent);
+        setContentView(R.layout.activity_edit_email_student);
         //Gets the values in the EditTextview
         etExistEmail = (EditText) findViewById(R.id.etExistingEmail);
         confirmButton = (Button) findViewById(R.id.confirmButton);
@@ -56,7 +56,7 @@ public class EditEmailStudent extends AppCompatActivity {
                     public void onResponse(String response) {
 
                         //Create New intent to go back to he PageParent after updating Email
-                        Intent intent = new Intent(EditEmailStudent.this, PageParent.class);
+                        Intent intent = new Intent(EditEmailStudent.this, PageStudent.class);
                         //Passes values to the new activity
                         intent.putExtra("name", name );
                         intent.putExtra("email", NewEmail);
