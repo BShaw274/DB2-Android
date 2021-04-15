@@ -50,20 +50,42 @@ public class EditEmailParent extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 final String NewEmail = etExistEmail.getText().toString();
-
+                Log.d("Update TEst#","1234567890: ");
+                if (NewEmail.matches("")) {
+                    Toast.makeText(EditEmailParent.this, "You did not enter a email", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 Response.Listener<String> responseListener2 = new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
 
-                        //Create New intent to go back to he PageParent after updating Email
-                        Intent intent = new Intent(EditEmailParent.this, PageParent.class);
-                        //Passes values to new activity
-                        intent.putExtra("name", name );
-                        intent.putExtra("email", NewEmail);
-                        intent.putExtra("password", password);
-                        intent.putExtra("phone", phone);
+                        try {
+                            Log.d("pleaseHelp!", response);
+                            Log.d("Follow"," theLeader ");
+                            JSONObject jsonResponse = new JSONObject(response);
+                            boolean success = jsonResponse.getBoolean("success");
 
-                        EditEmailParent.this.startActivity(intent);
+                            if(success){
+                                Log.d("In IF stmt","In if ");
+                                //Create New intent to go back to he PageParent after updating Email
+                                Intent intent = new Intent(EditEmailParent.this, PageParent.class);
+                                //Passes values to new activity
+                                intent.putExtra("name", name );
+                                intent.putExtra("email", NewEmail);
+                                intent.putExtra("password", password);
+                                intent.putExtra("phone", phone);
+
+                                EditEmailParent.this.startActivity(intent);
+                            } else{
+                                Log.d("Else stmt","In Else stmt !: ");
+                                AlertDialog.Builder builder = new AlertDialog.Builder(EditEmailParent.this);
+                                builder.setMessage("New Email is invalid, make sure the email is not already linked to an account.").setNegativeButton("Retry", null).create().show();
+                            }
+                        } catch (JSONException e) {
+                            Log.d("Catch stmt","We catch these");
+                            e.printStackTrace();
+                        }
+
                     }
                 };
                 //Uses my EditEmailRequest.java file to pass New and Old Emails to update the account
