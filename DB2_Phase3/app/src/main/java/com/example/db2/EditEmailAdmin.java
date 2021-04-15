@@ -50,6 +50,10 @@ public class EditEmailAdmin extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 final String NewEmail = etExistEmail.getText().toString();
+                if (NewEmail.matches("")) {
+                    Toast.makeText(EditEmailAdmin.this, "You did not enter a email", Toast.LENGTH_SHORT).show();
+                    return;
+                }
 
                 Response.Listener<String> responseListener2 = new Response.Listener<String>() {
                     @Override

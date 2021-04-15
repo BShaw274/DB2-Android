@@ -1,7 +1,7 @@
 <?php
 $mysqli = new mysqli('localhost', 'root', '', 'DB2');
 
-// get the child info that correspond to the student id's
+// get the User info that correspond to the student id's
 $getUserInfo = "SELECT id, name, email, phone FROM users";
 $infoRes = $mysqli->query($getUserInfo);
 

@@ -99,10 +99,28 @@ public class StudentRegistration extends AppCompatActivity {
                 Response.Listener<String> responseListener2 = new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
+                        try {
+                            Log.d("pleaseHelp", response);
+                            JSONObject jsonResponse = new JSONObject(response);
+                            boolean success = jsonResponse.getBoolean("success");
 
-                        //Create New intent to go back to the MainActivity after registering as a parent
-                        Intent intent = new Intent(StudentRegistration.this, MainActivity.class);
-                        StudentRegistration.this.startActivity(intent);
+                            if(success){
+                                //Create New intent to go back to the MainActivity after registering as a parent
+                                Intent intent = new Intent(StudentRegistration.this, MainActivity.class);
+                                StudentRegistration.this.startActivity(intent);
+
+                            } else{
+
+                                Toast.makeText(StudentRegistration.this, "Failed because data is Invalid", Toast.LENGTH_SHORT).show();
+                                AlertDialog.Builder builder = new AlertDialog.Builder(StudentRegistration.this);
+                                builder.setMessage("Registration Failed").setNegativeButton("Retry", null).create().show();
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+
+
+
                     }
                 };
                 //Uses my RegistrationRequest to execute php file and update database

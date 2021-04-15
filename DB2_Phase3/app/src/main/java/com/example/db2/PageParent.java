@@ -81,8 +81,43 @@ public class PageParent extends AppCompatActivity {
                 PageParent.this.startActivity(editParentPasswordIntent);
             }
         });
+        //Get Children Code
+        Response.Listener<String> responseListener = new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                try {
+                    Log.d("ChildrenInfo", response);
+                    JSONObject jsonResponse = new JSONObject(response);
+                    int i = 0;
+                    while(jsonResponse.has(Integer.toString(i) + "cid")){
+                        Log.d("Gitten Response","Time for Action");
+                        String cName = jsonResponse.getString(Integer.toString(i) + "cName");
+                        String cEmail = jsonResponse.getString(Integer.toString(i) + "cEmail");
+                        String cPhone = jsonResponse.getString(Integer.toString(i) + "cPhone");
 
+                        String temp = "Name: " + cName;
+                        String temp2 = "Email: " + cEmail + ", Phone: " + cPhone;
+                        TextView userInfo = new TextView(PageParent.this);
+                        TextView userInfo2 = new TextView(PageParent.this);
+                        userInfo.setText(temp);
+                        userInfo2.setText(temp2);
+                        userLayout.addView(userInfo);
+                        userLayout.addView(userInfo2);
+                        userLayout.addView(new TextView(PageParent.this));
+                        i++;
+                    }
+                } catch (JSONException e) {
+                    // should not reach here
+                    Log.d("whatHappened", response);
+                    e.printStackTrace();
+                }
+            }
+        };
 
+        getChildrenRequest getChildren = new getChildrenRequest(email, getString(R.string.url) + "getChildrenInfo.php", responseListener);
+        RequestQueue queue = Volley.newRequestQueue(PageParent.this);
+        queue.add(getChildren);
+        //Finish get Children code
         String title = name + "'s Page";
         tvName.setText(title);
         tvEmail.setText(email);
