@@ -32,8 +32,12 @@ if(false ===$check){
 //Array holding results of valid parents
 $validParentCheck = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
 
-var_dump($validParentCheck);
 
+if(empty($validParentCheck)){
+  $response["success"] = "false";
+}
+//var_dump($validParentCheck);
+if(!empty($validParentCheck)){
 //This query matches an existing parent id to the Id entered in the parent id field
 $stmt = $dbConnection->prepare("SELECT parent_id FROM parents Where parent_id = ?");
 if(false ===$stmt){
@@ -56,6 +60,8 @@ $stmt->close();
 //Checks if there is any valid parents
 if(!(empty($validID))){
 
+$failurecheck="false";
+
 //Uses Prepared Statements to prepare Query String, Uses bind_param to insert variables into the Query String
 //then pushes the query to the Database with Execute()
 //This specific prepared statesment inserts information about a student into the users table
@@ -69,7 +75,10 @@ if(false ===$check){
 }
 $check = $stmt->execute();
 if(false ===$check){
-  die('execute() failed: ' . htmlspecialchars($stmt->error));
+  $response["success"] = "false";
+  $failurecheck="true";
+  //die('execute() failed: ' . htmlspecialchars($stmt->error));
+
 }
 //Here im getting the ID of the User account previously created
 //This allows me to open another connection and push the ID into Parent/Student/Admin table as necessary
@@ -85,6 +94,8 @@ $dbConnection->close();
 //Doing the above but just the ID into student table
 //Connection opened and Tested
 $dbConnection = new mysqli('localhost', 'root', '', 'db2');
+
+if($failurecheck=="false"){
 if ($dbConnection->connect_error) {
   die("Connection failed: " . $dbConnection->connect_error);
 }
@@ -101,10 +112,13 @@ $check = $stmt->execute();
 if(false ===$check){
   die('execute() failed: ' . htmlspecialchars($stmt->error));
 }
-
+$response["success"] = "true";
 $stmt->close();
 $dbConnection->close();
 }
+}
+}
+echo json_encode($response);
 //If parent id is not valid then let user know and dont create account
 if(empty($validParentCheck)){
   echo "Not valid parent cannot sign up";
