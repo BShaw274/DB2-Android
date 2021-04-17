@@ -35,6 +35,7 @@ public class PageParent extends AppCompatActivity {
         Button editEmailButton = (Button) findViewById(R.id.editEmailButton);
         Button editPhoneButton = (Button) findViewById(R.id.editPhoneButton);
         Button editPasswordButton = (Button) findViewById(R.id.editPasswordButton);
+        Button editStudentButton = (Button) findViewById(R.id.editStudentButton);
         final LinearLayout userLayout = (LinearLayout) findViewById(R.id.userLayout);
 
         Intent intent = getIntent();
@@ -79,6 +80,18 @@ public class PageParent extends AppCompatActivity {
                 editParentPasswordIntent.putExtra("name", name);
                 editParentPasswordIntent.putExtra("user", user);
                 PageParent.this.startActivity(editParentPasswordIntent);
+            }
+        });
+        editStudentButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent editSelectStudentIntent = new Intent(PageParent.this, EditSelectStudent.class);
+                editSelectStudentIntent.putExtra("email", email);
+                editSelectStudentIntent.putExtra("password", password);
+                editSelectStudentIntent.putExtra("phone", phone);
+                editSelectStudentIntent.putExtra("name", name);
+                editSelectStudentIntent.putExtra("user", user);
+                PageParent.this.startActivity(editSelectStudentIntent);
             }
         });
         //Get Children Code
