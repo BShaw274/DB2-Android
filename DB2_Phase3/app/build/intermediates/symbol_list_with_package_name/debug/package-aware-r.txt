@@ -705,6 +705,7 @@ id disableHome
 id editEmailButton
 id editPasswordButton
 id editPhoneButton
+id editStudentButton
 id edit_query
 id email
 id end
@@ -717,6 +718,10 @@ id etNameReg
 id etParentEmail
 id etPasswordReg
 id etPhoneReg
+id etSEmail
+id etSPassword
+id etSPhone
+id etSelectSEmail
 id expand_activities_button
 id expanded_menu
 id fill
@@ -806,6 +811,12 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
+id textView10
+id textView11
+id textView12
+id textView13
+id textView14
+id textView15
 id textView2
 id textView3
 id textView31
@@ -820,6 +831,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id time
 id title
 id titleDividerNoCustom
@@ -880,6 +892,8 @@ layout activity_edit_password_student
 layout activity_edit_phone_admin
 layout activity_edit_phone_parent
 layout activity_edit_phone_student
+layout activity_edit_select_student
+layout activity_edit_student_info
 layout activity_main
 layout activity_page_admin
 layout activity_page_parent

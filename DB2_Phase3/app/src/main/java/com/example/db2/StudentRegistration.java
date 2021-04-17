@@ -92,7 +92,14 @@ public class StudentRegistration extends AppCompatActivity {
                     Toast.makeText(StudentRegistration.this, "You did not enter a grade", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                int gradetoint =Integer.parseInt(grade);
 
+                if (gradetoint< 6 || gradetoint >12){
+                    Toast.makeText(StudentRegistration.this, "You did not enter a valid grade. Please enter between 6 and 12", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                Log.d("GradetoInteger", "GradetoInteger: " + gradetoint);
 
 
 

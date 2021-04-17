@@ -78,7 +78,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.1269056938">
+    <key name="android.template.1365545388">
       <recent name="com.example.db2" />
     </key>
     <key name="android.template.packageName">
@@ -87,11 +87,14 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.db2" />
     </key>
-    <key name="android.template.1946270906">
+    <key name="android.template.1269056938">
       <recent name="com.example.db2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\res\layout" />
+    </key>
+    <key name="android.template.1946270906">
+      <recent name="com.example.db2" />
     </key>
   </component>
   <component name="RunManager">
@@ -216,10 +219,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618176751126" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1618356379571">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1618678101030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618356379571" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618678101030" />
     <state width="914" height="414" key="GridCell.Tab.0.bottom" timestamp="1618445944745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

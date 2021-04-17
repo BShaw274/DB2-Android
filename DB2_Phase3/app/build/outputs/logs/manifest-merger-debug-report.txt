@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-43:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\gonth\.gradle\caches\transforms-2\files-2.1\9442e2deaa13c1c57ceecb67bd85baf8\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\gonth\.gradle\caches\transforms-2\files-2.1\cb3ee0668a2ccffbec6ced598c9d8e79\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.volley:volley:1.1.0] C:\Users\gonth\.gradle\caches\transforms-2\files-2.1\ded11c2b0fee51bfd9a748b33473c819\jetified-volley-1.1.0\AndroidManifest.xml:2:1-11:12
@@ -32,20 +32,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\gonth\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\gonth\.gradle\caches\transforms-2\files-2.1\8909bb9e572b85a1aed6ea82735a7b78\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\gonth\.gradle\caches\transforms-2\files-2.1\2541981a540b257b4ca2e11e0b5e803f\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\gonth\.gradle\caches\transforms-2\files-2.1\2e208f9141563db79bd49ce93534ac4d\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-43:12
 	package
 		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:3:5-30
 		INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-43:12
 		INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:1-43:12
 		INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:2:11-69
@@ -54,7 +54,7 @@ ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:7:5-39:19
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:7:5-41:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\gonth\.gradle\caches\transforms-2\files-2.1\cb3ee0668a2ccffbec6ced598c9d8e79\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\gonth\.gradle\caches\transforms-2\files-2.1\cb3ee0668a2ccffbec6ced598c9d8e79\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.0] C:\Users\gonth\.gradle\caches\transforms-2\files-2.1\ded11c2b0fee51bfd9a748b33473c819\jetified-volley-1.1.0\AndroidManifest.xml:9:5-20
@@ -79,88 +79,96 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\go
 		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:13:9-40
 	android:usesCleartextTraffic
 		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:14:9-44
+activity#com.example.db2.EditStudentInfo
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:15:9-62
+	android:name
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:15:19-50
+activity#com.example.db2.EditSelectStudent
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:16:9-55
+	android:name
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:16:19-52
 activity#com.example.db2.StudentRegistration
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:15:9-66
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:17:9-57
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:15:19-54
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:17:19-54
 activity#com.example.db2.ParentRegistration
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:16:9-56
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:18:9-56
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:16:19-53
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:18:19-53
 activity#com.example.db2.EditEmailStudent
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:17:9-54
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:19:9-54
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:17:19-51
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:19:19-51
 activity#com.example.db2.EditEmailParent
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:18:9-53
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:20:9-53
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:18:19-50
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:20:19-50
 activity#com.example.db2.EditEmailAdmin
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:19:9-52
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:21:9-52
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:19:19-49
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:21:19-49
 activity#com.example.db2.EditPhoneAdmin
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:20:9-52
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:22:9-52
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:20:19-49
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:22:19-49
 activity#com.example.db2.EditPhoneParent
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:21:9-53
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:23:9-53
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:21:19-50
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:23:19-50
 activity#com.example.db2.EditPhoneStudent
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:22:9-54
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:24:9-54
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:22:19-51
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:24:19-51
 activity#com.example.db2.EditPasswordAdmin
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:23:9-55
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:25:9-55
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:23:19-52
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:25:19-52
 activity#com.example.db2.EditPasswordParent
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:24:9-56
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:26:9-56
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:24:19-53
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:26:19-53
 activity#com.example.db2.EditPasswordStudent
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:25:9-57
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:27:9-57
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:25:19-54
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:27:19-54
 activity#com.example.db2.PageStudent
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:26:9-49
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:28:9-49
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:26:19-46
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:28:19-46
 activity#com.example.db2.SignInStudent
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:27:9-51
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:29:9-51
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:27:19-48
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:29:19-48
 activity#com.example.db2.PageParent
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:28:9-48
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:30:9-48
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:28:19-45
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:30:19-45
 activity#com.example.db2.SignInParent
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:29:9-50
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:31:9-50
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:29:19-47
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:31:19-47
 activity#com.example.db2.SignInAdmin
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:30:9-49
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:32:9-49
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:30:19-46
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:32:19-46
 activity#com.example.db2.PageAdmin
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:31:9-47
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:33:9-47
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:31:19-44
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:33:19-44
 activity#com.example.db2.MainActivity
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:32:9-38:20
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:34:9-40:20
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:32:19-47
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:34:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:33:13-37:29
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:36:27-74
+		ADDED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:38:27-74
 uses-sdk
 INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml

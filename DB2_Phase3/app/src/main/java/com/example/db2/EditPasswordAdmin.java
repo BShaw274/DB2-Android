@@ -34,6 +34,7 @@ public class EditPasswordAdmin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_password_admin);
+
         //Gets the values in the EditTextview
         etExistPassword = (EditText) findViewById(R.id.etExistingPassword);
         confirmButton = (Button) findViewById(R.id.confirmButton);

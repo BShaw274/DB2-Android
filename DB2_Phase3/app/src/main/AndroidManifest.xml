@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".StudentRegistration"></activity>
+        <activity android:name=".EditStudentInfo"></activity>
+        <activity android:name=".EditSelectStudent" />
+        <activity android:name=".StudentRegistration" />
         <activity android:name=".ParentRegistration" />
         <activity android:name=".EditEmailStudent" />
         <activity android:name=".EditEmailParent" />
