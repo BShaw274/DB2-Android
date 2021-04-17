@@ -51,7 +51,7 @@ public class EditPasswordStudent extends AppCompatActivity {
             public void onClick(View v) {
                 final String NewPassword = etExistPassword.getText().toString();
                 if (NewPassword.matches("")) {
-                    Toast.makeText(EditPasswordStudent.this, "You did not enter a email", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EditPasswordStudent.this, "You did not enter a password", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 Response.Listener<String> responseListener2 = new Response.Listener<String>() {

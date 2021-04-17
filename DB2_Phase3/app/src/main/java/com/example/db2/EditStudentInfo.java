@@ -72,7 +72,7 @@ public class EditStudentInfo extends AppCompatActivity {
                             } else{
                                 Log.d("Else stmt","In Else stmt !: ");
                                 AlertDialog.Builder builder = new AlertDialog.Builder(EditStudentInfo.this);
-                                builder.setMessage("Email is not a student of this parent").setNegativeButton("Retry", null).create().show();
+                                builder.setMessage("Duplicate Email in database, needs to be a unique").setNegativeButton("Retry", null).create().show();
                             }
                         } catch (JSONException e) {
                             Log.d("Catch stmt","We catch these");

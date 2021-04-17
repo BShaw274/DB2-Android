@@ -51,7 +51,7 @@ public class EditPhoneParent extends AppCompatActivity {
             public void onClick(View v) {
                 final String NewPhone = etExistPhone.getText().toString();
                 if (NewPhone.matches("")) {
-                    Toast.makeText(EditPhoneParent.this, "You did not enter a email", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EditPhoneParent.this, "You did not enter a phone number", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 Response.Listener<String> responseListener2 = new Response.Listener<String>() {

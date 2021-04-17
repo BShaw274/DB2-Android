@@ -1,6 +1,6 @@
 <?php
-//$Email = $_POST['email'];
-$Email = "parent1@gmail.com";
+$Email = $_POST['email'];
+//$Email = "parent1@gmail.com";
 
 $dbConnection = new mysqli('localhost', 'root', '', 'db2');
 if ($dbConnection->connect_error) {
