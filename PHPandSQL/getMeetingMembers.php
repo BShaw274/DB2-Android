@@ -1,6 +1,6 @@
 <?php
 $Email = $_POST['email'];
-//$Email = "parent1@gmail.com";
+//$Email = "student7@gmail.com";
 
 $dbConnection = new mysqli('localhost', 'root', '', 'db2');
 if ($dbConnection->connect_error) {
@@ -28,6 +28,7 @@ if(false ===$check){
       echo json_encode($response);
 }
 $UserID = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
+ $stmt->close();
 //var_dump($UserID);
 
 
@@ -50,32 +51,23 @@ if(false ===$check){
     $response["success"] = "false";
     echo json_encode($response);
 }
-
-$MeetIdResult = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
-//Meeting ids for all the meetings the user is a mentor of
 $MeetIdResult = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
  $stmt->close();
+//Meeting ids for all the meetings the user is a mentor of
+//var_dump($MeetIdResult); All set here gets meetID mentor of
  if(!(empty($MeetIdResult))){
-
-
-  /*
-
-    This is code taken from studentlogin.php from phase 2. For the most part this should still work
-    but I have no idea how to connect this output to android. The way this code was written gets the mentors and
-    the mentees into seperate variables and then prints them. No idea how to combine these results.
-
-
-  */
+  $response = array();
+  $LI = 0; // Loop Iteration
 for($j=0; $j<count($MeetIdResult);$j++){
   //For loop will go through and print out mentors and mentees information for 1 specific meetings
   // before incrementing and checknig the next meeting untill there are no more meet_id's in $MeetIdResult
-  
+
   //echo "Meet id: ".$MeetIdResult[$j]["meet_id"];
-  $stmt = $dbConnection->prepare("SELECT mentor_id FROM enroll2 Where meet_id = ? AND mentor_id != ?");
+  $stmt = $dbConnection->prepare("SELECT mentor_id, meet_id FROM enroll2 Where meet_id = ? AND mentor_id != ?");
   if(false ===$stmt){
     die('prepare() failed: ' . htmlspecialchars($mysqli->error));
   }
-  $check = $stmt->bind_param("ss", $MeetIdResult[$j]["meet_id"], $gid);
+  $check = $stmt->bind_param("ss", $MeetIdResult[$j]["meet_id"], $UserID[0]['id']);
   if(false ===$check){
     die('bind_param() failed: ' . htmlspecialchars($stmt->error));
   }
@@ -85,10 +77,11 @@ for($j=0; $j<count($MeetIdResult);$j++){
   }
   $MentorIdResult = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
   $stmt->close();
+ //var_dump($MentorIdResult);
+ //MentorID then MeetID they are in
+
   //Gets mentor ID's for meeting we are checking so we can then query the info of those mentors
   if(!(empty($MentorIdResult))){
-      
-    //echo"Mentors:";
 
     for($i=0; $i<count($MentorIdResult); $i++){
 
@@ -107,60 +100,98 @@ for($j=0; $j<count($MeetIdResult);$j++){
       $MentorInfoResult = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
       $stmt->close();
       //var_dump($MentorInfoResult);
-      
-      for($k=0; $k<count($MentorInfoResult);$k++){
-        //echo"Inside Test";
-        //echo" Name: ".$MentorInfoResult[$k]["name"].", Email: ".$MentorInfoResult[$k]["email"];
-
-      }
-    }
-    //The above then prints the Name and Email for the mentor id's obtained in $MentorIdResult
+      $response[strval($LI) . "cid"] = $MentorIdResult[$i]["mentor_id"];;
+      $response[strval($LI) . "Name"] = $MentorInfoResult[0]['name'];
+      $response[strval($LI) . "Email"] = $MentorInfoResult[0]['email'];
+      $response[strval($LI) . "Meeting"] = $MentorIdResult[0]["meet_id"];
+      $response[strval($LI) . "Status"] = "Mentor of ";
+      $LI++;
+    }//for $MentorIdResult close
   }//Mentor ID Result isempty Close
+  //Mentor Info all stored
+//var_dump($MentorInfoResult);
 
-$stmt->close();
-//echo "|||||||||||Var Dump Start";
-//var_dump($StudentIDs);
-//echo "Var Dump over|||||||||||";
 
-$response = array();
+  //Now Mentee
+  $stmt = $dbConnection->prepare("SELECT mentee_id, meet_id FROM enroll Where meet_id = ?");
+  if(false ===$stmt){
+    die('prepare() failed: ' . htmlspecialchars($mysqli->error));
+  }
+  $check = $stmt->bind_param("s", $MeetIdResult[$j]["meet_id"]);
+  if(false ===$check){
+    die('bind_param() failed: ' . htmlspecialchars($stmt->error));
+  }
+  $check = $stmt->execute();
+  if(false ===$check){
+    die('execute() failed: ' . htmlspecialchars($stmt->error));
+  }
+  $MenteeIdResult = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
+  $stmt->close();
+ //var_dump($MenteeIdResult);
+//Get mentee Info
+ if(!(empty($MenteeIdResult))){
+
+   for($i=0; $i<count($MenteeIdResult); $i++){
+     //echo"||INhereCheck||";
+     $stmt = $dbConnection->prepare("SELECT name, email  FROM users Where id= ?");
+     if(false ===$stmt){
+       die('prepare() failed: ' . htmlspecialchars($mysqli->error));
+     }
+     $check = $stmt->bind_param("s", $MenteeIdResult[$i]["mentee_id"]);
+     if(false ===$check){
+       die('bind_param() failed: ' . htmlspecialchars($stmt->error));
+     }
+     $check = $stmt->execute();
+     if(false ===$check){
+       die('execute() failed: ' . htmlspecialchars($stmt->error));
+     }
+     $MenteeInfoResult = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
+     $stmt->close();
+     //var_dump($MenteeInfoResult);
+     $response[strval($LI) . "cid"] = $MenteeIdResult[$i]["mentee_id"];
+     $response[strval($LI) . "Name"] = $MenteeInfoResult[0]['name'];
+     $response[strval($LI) . "Email"] = $MenteeInfoResult[0]['email'];
+     $response[strval($LI) . "Meeting"] = $MenteeIdResult[0]["meet_id"];
+     $response[strval($LI) . "Status"] = "Mentee of ";
+     $LI++;
+   }
+ }//Mentee ID Result isempty Close
+//echo" ||||||||||||||||||||||||||||||||| ";
+
+
+
+
   //get all info of users with id with for loop
-  for ($i=0; $i<count($MentorInfoResult);$i++){
-  //  echo "Running X times: ".$i." IDs: ";
-  //  echo $StudentIDs[$i]['student_id'];
 
-$stmt = $dbConnection->prepare("SELECT * FROM users Where id = ?");
-if(false ===$stmt){
-  //die('prepare() failed: ' . htmlspecialchars($mysqli->error));
-  $response["success"] = "false";
-    echo json_encode($response);
-//echo " Echoing Email update: ".$response["success"];
-}
-$check = $stmt->bind_param("s", $MentorInfoResult[$i]['name']);
-if(false ===$check){
-  //die('bind_param() failed: ' . htmlspecialchars($stmt->error));
-  $response["success"] = "false";
-    echo json_encode($response);
-//echo " Echoing Email update: ".$response["success"];
-}
-$check = $stmt->execute();
-if(false ===$check){
-  //die('execute() failed: ' . htmlspecialchars($stmt->error));
-    $response["success"] = "false";
-      echo json_encode($response);
-}
-$MentorInfoResult = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
-$stmt->close();
+/*
+for ($i=0; $i<count($MentorInfoResult);$i++){
+$response[strval($i) . "Name"] = $MentorInfoResult[$i]['name'];
+$response[strval($i) . "Email"] = $MentorInfoResult[$i]['email'];
+$response[strval($i) . "Meeting"] = $MentorIdResult[$i]["meet_id"];
+$response[strval($i) . "Status"] = "Mentor";
+$loopI = $i;
+echo$i;
+echo" | ";
+echo $MentorInfoResult[$i]['name'];
+echo" | ";
+echo $MentorInfoResult[$i]['email'];
+echo" | ";
+echo $MentorIdResult[$i]["meet_id"];
 
-//var_dump($StudentsInfo);
-// get the child info that correspond to the student id's
-//$getUserInfo = "SELECT id, name, email, phone FROM users";
-//$infoRes = $mysqli->query($getUserInfo);
-//echo $i."|||";
-
-$response[strval($i) . "mName"] = $MentorInfoResult[0]['name'];
-$response[strval($i) . "mEmail"] = $MentorInfoResult[0]['email'];
-//var_dump($response);
 }// for close
+*/
+
+/*
+for ($i=1; $i<count($MenteeInfoResult);$i++){
+$response[strval($i) . "Name"] = $MenteeInfoResult[$i]['name'];
+$response[strval($i) . "Email"] = $MenteeInfoResult[$i]['email'];
+$response[strval($i) . "Meeting"] = $MenteeIdResult[$i]["meet_id"];
+$response[strval($i) . "Status"] = "Mentee";
+}// for close
+*/
+
+}//meetID Close
+}//If!empty meetID Close
 //echo"||||||||||||End Result|||||||||";
 echo json_encode($response);
 ?>
