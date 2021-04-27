@@ -40,8 +40,9 @@ public class DisplayingStudyMaterials extends AppCompatActivity {
                         String cType = jsonResponse.getString(Integer.toString(i) + "cType");
                         String cUrl = jsonResponse.getString(Integer.toString(i) + "cUrl");
                         String cAssigned_date = jsonResponse.getString(Integer.toString(i) + "cAssigned_date");
+                        String cNotes = jsonResponse.getString(Integer.toString(i) + "cNotes");
 
-                        String temp = "Title: " + cTitle + ", Author: "+ cAuthor + ", Type" + cType + ", URL: " + cUrl + ", Assigned Date: " + cAssigned_date;
+                        String temp = "Title: " + cTitle + ", Author: "+ cAuthor + ", Type: " + cType + ", URL: " + cUrl + ", Assigned Date: " + cAssigned_date + ", Notes " + cNotes;
                         TextView studyMats = new TextView(DisplayingStudyMaterials.this);
                         studyMats.setText(temp);
                         userLayout.addView(studyMats);
