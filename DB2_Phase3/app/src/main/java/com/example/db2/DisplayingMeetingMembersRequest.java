@@ -17,14 +17,11 @@ public class DisplayingMeetingMembersRequest extends StringRequest{
             Log.d("please","Error listener response: " + error.getMessage());
         }
     };
-
     public DisplayingMeetingMembersRequest(String email, String url, Response.Listener<String> listener){
         super(Method.POST, url, listener, err);
         args = new HashMap<String, String>();
-        //Values being passed to PHP file
         args.put("email", email);
     }
-
     @Override
     protected Map<String, String> getParams() throws AuthFailureError {
         return args;

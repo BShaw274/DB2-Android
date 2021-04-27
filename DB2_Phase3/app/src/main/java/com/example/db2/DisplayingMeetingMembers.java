@@ -40,25 +40,36 @@ public class DisplayingMeetingMembers extends AppCompatActivity {
             @Override
             public void onResponse(String response) {
                 try {
-                    Log.d("MeetingMembers", response);
+                    Log.d("TestMeetingMembers", response);
                     JSONObject jsonResponse = new JSONObject(response);
                     int i = 0;
-
+                    Log.d("In Try","Awaiting response!");
                     //This section needs to be updated for the mentors and mentees input
                     while(jsonResponse.has(Integer.toString(i) + "cid")){
-                        Log.d("Gotten Response","Time for Action");
-                        String cName = jsonResponse.getString(Integer.toString(i) + "cName");
-                        String cEmail = jsonResponse.getString(Integer.toString(i) + "cEmail");
-                        String cPhone = jsonResponse.getString(Integer.toString(i) + "cPhone");
+                        Log.d("Here is Response","Time for Action");
+                        String Name = jsonResponse.getString(Integer.toString(i) + "Name");
+                        Log.d("Here Name: ",Name);
+                        String Email = jsonResponse.getString(Integer.toString(i) + "Email");
+                        Log.d("Here Email: ",Email);
+                        String Meeting = jsonResponse.getString(Integer.toString(i) + "Meeting");
+                        Log.d("Here MeetID: ",Meeting);
+                        String Status = jsonResponse.getString(Integer.toString(i) + "Status");
+                        Log.d("Here Status: ",Status);
 
-                        String temp = "Name: " + cName;
-                        String temp2 = "Email: " + cEmail + ", Phone: " + cPhone;
+                        String temp = "Name: " + Name + " Email: " + Email;
+                        String temp2 = Status + ", Meeting #" + Meeting;
+                        Log.d("Location: ","PostStringTemps");
                         TextView userInfo = new TextView(DisplayingMeetingMembers.this);
                         TextView userInfo2 = new TextView(DisplayingMeetingMembers.this);
+                        Log.d("Location: ","PostTextView");
                         userInfo.setText(temp);
+                        Log.d("Location: ","PostUserInfo1");
                         userInfo2.setText(temp2);
+                        Log.d("Location: ","PostUserInfo2");
                         userLayout.addView(userInfo);
+                        Log.d("Location: ","PostAddview1");
                         userLayout.addView(userInfo2);
+                        Log.d("Location: ","PreFinal AddView");
                         userLayout.addView(new TextView(DisplayingMeetingMembers.this));
                         i++;
                     }
@@ -69,7 +80,7 @@ public class DisplayingMeetingMembers extends AppCompatActivity {
                 }
             }
         };
-
+        Log.d("At end","Over");
         DisplayingMeetingMembersRequest DisplayMMReq = new DisplayingMeetingMembersRequest(email, getString(R.string.url) + "getMeetingMembers.php", responseListener);
         RequestQueue queue = Volley.newRequestQueue(DisplayingMeetingMembers.this);
         queue.add(DisplayMMReq);
