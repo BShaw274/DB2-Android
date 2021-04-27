@@ -35,6 +35,8 @@ public class PageStudent extends AppCompatActivity {
         Button editEmailButton = (Button) findViewById(R.id.editEmailButton);
         Button editPhoneButton = (Button) findViewById(R.id.editPhoneButton);
         Button editPasswordButton = (Button) findViewById(R.id.editPasswordButton);
+        Button meetingMembers = (Button) findViewById(R.id.meetingMembers);
+        Button studyMaterials = (Button) findViewById(R.id.studyMaterials);
         final LinearLayout userLayout = (LinearLayout) findViewById(R.id.userLayout);
 
         Intent intent = getIntent();
@@ -82,6 +84,23 @@ public class PageStudent extends AppCompatActivity {
                 PageStudent.this.startActivity(editStudentPasswordIntent);
             }
         });
+        meetingMembers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent displayMeetingMembers = new Intent(PageStudent.this, DisplayingMeetingMembers.class);
+                displayMeetingMembers.putExtra("email", email);
+                PageStudent.this.startActivity(displayMeetingMembers);
+            }
+        });
+        studyMaterials.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent DisplayingStudyMaterials = new Intent(PageStudent.this, DisplayingStudyMaterials.class);
+                DisplayingStudyMaterials.putExtra("email", email);
+                PageStudent.this.startActivity(DisplayingStudyMaterials);
+            }
+        });
+
 
 
         String title = name + "'s Page";

@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".EditStudentInfo"></activity>
+        <activity android:name=".DisplayingStudyMaterials"></activity>
+        <activity android:name=".DisplayingMeetingMembers" />
+        <activity android:name=".EditStudentInfo" />
         <activity android:name=".EditSelectStudent" />
         <activity android:name=".StudentRegistration" />
         <activity android:name=".ParentRegistration" />

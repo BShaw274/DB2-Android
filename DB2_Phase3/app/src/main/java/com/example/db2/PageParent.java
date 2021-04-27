@@ -103,7 +103,7 @@ public class PageParent extends AppCompatActivity {
                     JSONObject jsonResponse = new JSONObject(response);
                     int i = 0;
                     while(jsonResponse.has(Integer.toString(i) + "cid")){
-                        Log.d("Gitten Response","Time for Action");
+                        Log.d("Gotten Response","Time for Action");
                         String cName = jsonResponse.getString(Integer.toString(i) + "cName");
                         String cEmail = jsonResponse.getString(Integer.toString(i) + "cEmail");
                         String cPhone = jsonResponse.getString(Integer.toString(i) + "cPhone");
