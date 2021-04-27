@@ -1,4 +1,4 @@
-#Sat Apr 17 14:40:40 EDT 2021
-base.0=C\:\\Users\\gonth\\AndroidStudioProjects\\DB2_Phase3\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Tue Apr 27 10:55:36 EDT 2021
+base.0=C\:\\Users\\BiTz\\Documents\\Senior Year\\Spring\\Database2\\Android Project\\DB2-Android\\DB2_Phase3\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

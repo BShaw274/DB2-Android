@@ -745,6 +745,8 @@ id line1
 id line3
 id listMode
 id list_item
+id meetingMembers
+id membersList
 id message
 id middle
 id multiply
@@ -800,6 +802,10 @@ id stRegisterConfirm
 id stSignInButton
 id standard
 id start
+id studyLayout
+id studyMaterials
+id studyScrollLayout
+id studymats
 id submenuarrow
 id submit_area
 id tabMode
@@ -883,6 +889,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_displaying_meeting_members
+layout activity_displaying_study_materials
 layout activity_edit_email_admin
 layout activity_edit_email_parent
 layout activity_edit_email_student
