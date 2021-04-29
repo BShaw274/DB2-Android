@@ -26,7 +26,7 @@ import java.util.Map;
 
 
 public class EditEmailAdmin extends AppCompatActivity {
-
+    //Initializes the editTexts and Buttons
     EditText etExistEmail;
     Button confirmButton;
 
@@ -34,7 +34,7 @@ public class EditEmailAdmin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_email_admin);
-        //Gets the values in the EditTextview
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         etExistEmail = (EditText) findViewById(R.id.etExistingEmail);
         confirmButton = (Button) findViewById(R.id.confirmButton);
         //Get information passed into this file
@@ -70,7 +70,7 @@ public class EditEmailAdmin extends AppCompatActivity {
                                 EditEmailAdmin.this.startActivity(intent);
                     }
                 };
-                //Uses my EditEmailRequest.java file to pass New and Old Emails to update the account
+                //Here we use the request format to access the correct php file while passing the correct variables
                 EditEmailRequest EditEmailRequest1 = new EditEmailRequest(NewEmail, email, getString(R.string.url) + "EditEmail.php", responseListener2);
                 RequestQueue queue = Volley.newRequestQueue(EditEmailAdmin.this);
                 queue.add(EditEmailRequest1);

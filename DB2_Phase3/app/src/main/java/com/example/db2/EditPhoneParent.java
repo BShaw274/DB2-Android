@@ -26,7 +26,7 @@ import java.util.Map;
 
 
 public class EditPhoneParent extends AppCompatActivity {
-
+    //Initializes the editTexts and Buttons
     EditText etExistPhone;
     Button confirmButton;
 
@@ -34,7 +34,7 @@ public class EditPhoneParent extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_phone_parent);
-        // Gets the values from the Text view Fields
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         etExistPhone = (EditText) findViewById(R.id.etExistingPhone);
         confirmButton = (Button) findViewById(R.id.confirmButton);
         //Get information passed into this file
@@ -60,7 +60,6 @@ public class EditPhoneParent extends AppCompatActivity {
 
                         //Create New intent to go back to he PageParent after updating Phone
                         Intent intent = new Intent(EditPhoneParent.this, PageParent.class);
-
                         intent.putExtra("name", name );
                         intent.putExtra("email", email);
                         intent.putExtra("password", password);
@@ -69,7 +68,7 @@ public class EditPhoneParent extends AppCompatActivity {
                         EditPhoneParent.this.startActivity(intent);
                     }
                 };
-                //Uses my EditPhoneRequest.java file to pass New and Old Phones to update the account
+                //Here we use the request format to access the correct php file while passing the correct variables
                 EditPhoneRequest EditPhoneRequest1 = new EditPhoneRequest(NewPhone, email, getString(R.string.url) + "EditPhone.php", responseListener2);
                 RequestQueue queue = Volley.newRequestQueue(EditPhoneParent.this);
                 queue.add(EditPhoneRequest1);

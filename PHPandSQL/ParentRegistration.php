@@ -1,6 +1,5 @@
 <?php
 
-// Getting info posted from userSignupParent.html form action line 10
 $email = $_POST['email'];
 $password = $_POST['password'];
 $name = $_POST['name'];
@@ -34,7 +33,6 @@ if(false ===$check){
 //This allows me to open another connection and push the ID into Parent/Student/Admin table as necessary
 $lastId = $stmt->insert_id;
 //Closes stmt and connection
-//echo "email: ". $email;
 
 $stmt->close();
 $dbConnection->close();

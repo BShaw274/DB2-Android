@@ -19,6 +19,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class StudentRegistration extends AppCompatActivity {
+    //Initializes the editTexts and Buttons
     EditText etNameReg;
     EditText etEmailReg;
     EditText etPhoneReg;
@@ -32,6 +33,7 @@ public class StudentRegistration extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_registration);
 
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         etNameReg = (EditText) findViewById(R.id.etNameReg);
         etEmailReg= (EditText) findViewById(R.id. etEmailReg);
         etPhoneReg = (EditText) findViewById(R.id.etPhoneReg);
@@ -41,7 +43,7 @@ public class StudentRegistration extends AppCompatActivity {
         stRegisterConfirm = (Button) findViewById(R.id.stRegisterConfirm);
 
 
-        //Confirm button listener
+        //Register button listener
         stRegisterConfirm.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -130,7 +132,7 @@ public class StudentRegistration extends AppCompatActivity {
 
                     }
                 };
-                //Uses my RegistrationRequest to execute php file and update database
+                //Here we use the request format to access the correct php file while passing the correct variables
                 StudentRegistrationRequest StudentRegistrationRequest1= new StudentRegistrationRequest(email, password, name, phone, paEmail, grade, getString(R.string.url) + "StudentRegistration.php", responseListener2);
                 RequestQueue queue = Volley.newRequestQueue(StudentRegistration.this);
                 queue.add(StudentRegistrationRequest1);

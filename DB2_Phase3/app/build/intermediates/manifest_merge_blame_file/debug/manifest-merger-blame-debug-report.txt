@@ -6,111 +6,129 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml
+8-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml
+9-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:7:5-43:19
+13-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:7:5-49:19
 14        android:allowBackup="true"
-14-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:8:9-35
+14-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.0.1] C:\Users\BiTz\.gradle\caches\transforms-2\files-2.1\aa782ce88e4a65071c9b22f6f1fd262a\core-1.0.1\AndroidManifest.xml:22:18-86
+15-->[androidx.core:core:1.0.1] C:\Users\gonth\.gradle\caches\transforms-2\files-2.1\aa782ce88e4a65071c9b22f6f1fd262a\core-1.0.1\AndroidManifest.xml:22:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:9:9-43
+17-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:9:9-43
 18        android:label="@string/app_name"
-18-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:10:9-41
+18-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:10:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:11:9-54
+19-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
-20-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:12:9-35
+20-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:12:9-35
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme"
-22-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:13:9-40
+22-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:13:9-40
 23        android:usesCleartextTraffic="true" >
-23-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:14:9-44
-24        <activity android:name="com.example.db2.DisplayingStudyMaterials" />
-24-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:15:9-71
-24-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:15:19-59
-25        <activity android:name="com.example.db2.DisplayingMeetingMembers" />
-25-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:16:9-62
-25-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:16:19-59
-26        <activity android:name="com.example.db2.EditStudentInfo" />
-26-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:17:9-53
-26-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:17:19-50
-27        <activity android:name="com.example.db2.EditSelectStudent" />
-27-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:18:9-55
-27-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:18:19-52
-28        <activity android:name="com.example.db2.StudentRegistration" />
-28-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:19:9-57
-28-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:19:19-54
-29        <activity android:name="com.example.db2.ParentRegistration" />
-29-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:20:9-56
-29-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:20:19-53
-30        <activity android:name="com.example.db2.EditEmailStudent" />
-30-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:21:9-54
-30-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:21:19-51
-31        <activity android:name="com.example.db2.EditEmailParent" />
-31-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:22:9-53
-31-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:22:19-50
-32        <activity android:name="com.example.db2.EditEmailAdmin" />
-32-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:23:9-52
-32-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:23:19-49
-33        <activity android:name="com.example.db2.EditPhoneAdmin" />
-33-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:24:9-52
-33-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:24:19-49
-34        <activity android:name="com.example.db2.EditPhoneParent" />
-34-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:25:9-53
-34-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:25:19-50
-35        <activity android:name="com.example.db2.EditPhoneStudent" />
-35-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:26:9-54
-35-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:26:19-51
-36        <activity android:name="com.example.db2.EditPasswordAdmin" />
-36-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:27:9-55
-36-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:27:19-52
-37        <activity android:name="com.example.db2.EditPasswordParent" />
-37-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:28:9-56
-37-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:28:19-53
-38        <activity android:name="com.example.db2.EditPasswordStudent" />
-38-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:29:9-57
-38-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:29:19-54
-39        <activity android:name="com.example.db2.PageStudent" />
-39-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:30:9-49
-39-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:30:19-46
-40        <activity android:name="com.example.db2.SignInStudent" />
-40-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:31:9-51
-40-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:31:19-48
-41        <activity android:name="com.example.db2.PageParent" />
-41-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:32:9-48
-41-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:32:19-45
-42        <activity android:name="com.example.db2.SignInParent" />
-42-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:33:9-50
-42-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:33:19-47
-43        <activity android:name="com.example.db2.SignInAdmin" />
-43-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:34:9-49
-43-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:34:19-46
-44        <activity android:name="com.example.db2.PageAdmin" />
-44-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:35:9-47
-44-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:35:19-44
-45        <activity android:name="com.example.db2.MainActivity" >
-45-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:36:9-42:20
-45-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:36:19-47
-46            <intent-filter>
-46-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:37:13-41:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:38:17-69
-47-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:38:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:40:17-77
-49-->C:\Users\BiTz\Documents\Senior Year\Spring\Database2\Android Project\DB2-Android\DB2_Phase3\app\src\main\AndroidManifest.xml:40:27-74
-50            </intent-filter>
-51        </activity>
-52    </application>
-53
-54</manifest>
+23-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:14:9-44
+24        <activity android:name="com.example.db2.MeetingQuitMentee" />
+24-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:15:9-64
+24-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:15:19-52
+25        <activity android:name="com.example.db2.MeetingQuitMentor" />
+25-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:16:9-55
+25-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:16:19-52
+26        <activity android:name="com.example.db2.MeetingQuitSelection" />
+26-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:17:9-58
+26-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:17:19-55
+27        <activity android:name="com.example.db2.MeetingJoinMentor" />
+27-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:18:9-55
+27-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:18:19-52
+28        <activity android:name="com.example.db2.MeetingJoinMentee" />
+28-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:19:9-55
+28-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:19:19-52
+29        <activity android:name="com.example.db2.MeetingJoinSelection" />
+29-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:20:9-58
+29-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:20:19-55
+30        <activity android:name="com.example.db2.DisplayingStudyMaterials" />
+30-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:21:9-62
+30-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:21:19-59
+31        <activity android:name="com.example.db2.DisplayingMeetingMembers" />
+31-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:22:9-62
+31-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:22:19-59
+32        <activity android:name="com.example.db2.EditStudentInfo" />
+32-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:23:9-53
+32-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:23:19-50
+33        <activity android:name="com.example.db2.EditSelectStudent" />
+33-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:24:9-55
+33-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:24:19-52
+34        <activity android:name="com.example.db2.StudentRegistration" />
+34-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:25:9-57
+34-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:25:19-54
+35        <activity android:name="com.example.db2.ParentRegistration" />
+35-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:26:9-56
+35-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:26:19-53
+36        <activity android:name="com.example.db2.EditEmailStudent" />
+36-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:27:9-54
+36-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:27:19-51
+37        <activity android:name="com.example.db2.EditEmailParent" />
+37-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:28:9-53
+37-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:28:19-50
+38        <activity android:name="com.example.db2.EditEmailAdmin" />
+38-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:29:9-52
+38-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:29:19-49
+39        <activity android:name="com.example.db2.EditPhoneAdmin" />
+39-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:30:9-52
+39-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:30:19-49
+40        <activity android:name="com.example.db2.EditPhoneParent" />
+40-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:31:9-53
+40-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:31:19-50
+41        <activity android:name="com.example.db2.EditPhoneStudent" />
+41-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:32:9-54
+41-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:32:19-51
+42        <activity android:name="com.example.db2.EditPasswordAdmin" />
+42-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:33:9-55
+42-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:33:19-52
+43        <activity android:name="com.example.db2.EditPasswordParent" />
+43-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:34:9-56
+43-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:34:19-53
+44        <activity android:name="com.example.db2.EditPasswordStudent" />
+44-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:35:9-57
+44-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:35:19-54
+45        <activity android:name="com.example.db2.PageStudent" />
+45-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:36:9-49
+45-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:36:19-46
+46        <activity android:name="com.example.db2.SignInStudent" />
+46-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:37:9-51
+46-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:37:19-48
+47        <activity android:name="com.example.db2.PageParent" />
+47-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:38:9-48
+47-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:38:19-45
+48        <activity android:name="com.example.db2.SignInParent" />
+48-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:39:9-50
+48-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:39:19-47
+49        <activity android:name="com.example.db2.SignInAdmin" />
+49-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:40:9-49
+49-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:40:19-46
+50        <activity android:name="com.example.db2.PageAdmin" />
+50-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:41:9-47
+50-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:41:19-44
+51        <activity android:name="com.example.db2.MainActivity" >
+51-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:42:9-48:20
+51-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:42:19-47
+52            <intent-filter>
+52-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:43:13-47:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:44:17-69
+53-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:44:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:46:17-77
+55-->C:\Users\gonth\AndroidStudioProjects\DB2_Phase3\app\src\main\AndroidManifest.xml:46:27-74
+56            </intent-filter>
+57        </activity>
+58    </application>
+59
+60</manifest>

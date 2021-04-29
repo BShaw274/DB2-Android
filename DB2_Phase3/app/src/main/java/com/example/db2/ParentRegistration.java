@@ -19,7 +19,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class ParentRegistration extends AppCompatActivity {
-
+    //Initializes the editTexts and Buttons
     EditText etNameReg;
     EditText etEmailReg;
     EditText etPhoneReg;
@@ -29,7 +29,7 @@ public class ParentRegistration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_parent_registration);
-
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         etNameReg = (EditText) findViewById(R.id.etNameReg);
         etEmailReg= (EditText) findViewById(R.id. etEmailReg);
         etPhoneReg = (EditText) findViewById(R.id.etPhoneReg);
@@ -38,7 +38,7 @@ public class ParentRegistration extends AppCompatActivity {
 
 
 
-        //Confirm button listener
+        //Register button listener
         paRegisterConfirm.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -48,9 +48,6 @@ public class ParentRegistration extends AppCompatActivity {
                 String password = etPasswordReg.getText().toString();
                 String name = etNameReg.getText().toString();
                 String phone = etPhoneReg.getText().toString();
-
-                //Debug statement
-                //Log.d("TestEmail", "Email: " + email);
 
 
                 //If checks to make sure input is not empty.
@@ -100,7 +97,7 @@ public class ParentRegistration extends AppCompatActivity {
 
                     }
                 };
-                //Uses my RegistrationRequest to execute php file and update database
+                //Here we use the request format to access the correct php file while passing the correct variables
                 RegistrationRequest RegistrationRequest1= new RegistrationRequest(email, password, name, phone, getString(R.string.url) + "ParentRegistration.php", responseListener2);
                 RequestQueue queue = Volley.newRequestQueue(ParentRegistration.this);
                 queue.add(RegistrationRequest1);

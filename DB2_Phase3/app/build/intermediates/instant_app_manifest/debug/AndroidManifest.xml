@@ -22,6 +22,12 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.db2.MeetingQuitMentee" />
+        <activity android:name="com.example.db2.MeetingQuitMentor" />
+        <activity android:name="com.example.db2.MeetingQuitSelection" />
+        <activity android:name="com.example.db2.MeetingJoinMentor" />
+        <activity android:name="com.example.db2.MeetingJoinMentee" />
+        <activity android:name="com.example.db2.MeetingJoinSelection" />
         <activity android:name="com.example.db2.DisplayingStudyMaterials" />
         <activity android:name="com.example.db2.DisplayingMeetingMembers" />
         <activity android:name="com.example.db2.EditStudentInfo" />

@@ -27,7 +27,7 @@ public class PageParent extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_parent);
-
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         TextView tvName = (TextView) findViewById(R.id.tvName);
         TextView tvEmail = (TextView) findViewById(R.id.tvEmail);
         TextView tvPassword = (TextView) findViewById(R.id.tvPassword);
@@ -45,7 +45,7 @@ public class PageParent extends AppCompatActivity {
         final String phone = intent.getStringExtra("phone");
         final String user = "parent";
 
-
+        //Edit button Listener, Passing the info needed and creating new intent
         editEmailButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,6 +58,7 @@ public class PageParent extends AppCompatActivity {
                 PageParent.this.startActivity(editParentEmailIntent);
             }
             });
+        //Edit button Listener, Passing the info needed and creating new intent
         editPhoneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -70,6 +71,7 @@ public class PageParent extends AppCompatActivity {
                 PageParent.this.startActivity(editParentPhoneIntent);
             }
         });
+        //Edit button Listener, Passing the info needed and creating new intent
         editPasswordButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -82,6 +84,7 @@ public class PageParent extends AppCompatActivity {
                 PageParent.this.startActivity(editParentPasswordIntent);
             }
         });
+        //Edit button Listener, Passing the info needed and creating new intent
         editStudentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -94,7 +97,7 @@ public class PageParent extends AppCompatActivity {
                 PageParent.this.startActivity(editSelectStudentIntent);
             }
         });
-        //Get Children Code
+        //on Creation of page get children info
         Response.Listener<String> responseListener = new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -126,11 +129,13 @@ public class PageParent extends AppCompatActivity {
                 }
             }
         };
-
+        //Here we use the request format to access the correct php file while passing the correct variables
         getChildrenRequest getChildren = new getChildrenRequest(email, getString(R.string.url) + "getChildrenInfo.php", responseListener);
         RequestQueue queue = Volley.newRequestQueue(PageParent.this);
         queue.add(getChildren);
         //Finish get Children code
+
+        //Set the values of the text boxes
         String title = name + "'s Page";
         tvName.setText(title);
         tvEmail.setText(email);

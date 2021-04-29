@@ -8,16 +8,19 @@ $Email = $_POST['Email'];
 $newPhone = 'EditPhone@gmail.com';
 $oldPhone = 'parent3@Gmail.com';
 */
+
+//Database connection
 $dbConnection = new mysqli('localhost', 'root', '', 'db2');
 if ($dbConnection->connect_error) {
   die("Connection failed: " . $dbConnection->connect_error);
 }
 
-// Do the SQL value Update
+// Do the SQL value Update update phone
 $stmt = $dbConnection->prepare("UPDATE users SET phone = ? Where Email = ?");
 if(false ===$stmt){
   die('prepare() failed: ' . htmlspecialchars($mysqli->error));
 }
+//Bind newphone and email
 $check = $stmt->bind_param("ss", $NewPhone, $Email);
 if(false ===$check){
   die('bind_param() failed: ' . htmlspecialchars($stmt->error));

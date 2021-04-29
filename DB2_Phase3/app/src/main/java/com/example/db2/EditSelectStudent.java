@@ -19,7 +19,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class EditSelectStudent extends AppCompatActivity {
-
+    //Initializes the editTexts and Buttons
     EditText etSelectSEmail;
     Button confirmButton;
 
@@ -28,7 +28,7 @@ public class EditSelectStudent extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_select_student);
 
-        //Gets the values in the EditTextview
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         etSelectSEmail = (EditText) findViewById(R.id.etSelectSEmail);
         confirmButton = (Button) findViewById(R.id.confirmButton);
         //Get information passed into this file
@@ -58,7 +58,7 @@ public class EditSelectStudent extends AppCompatActivity {
                             boolean success = jsonResponse.getBoolean("success");
 
                             if(success){
-                                //Create New intent to
+                                //Create New intent to go to new activity upon success
                                 Intent intent = new Intent(EditSelectStudent.this, EditStudentInfo.class);
                                 intent.putExtra("Pname", Pname );
                                 intent.putExtra("Pemail", Pemail);
@@ -80,7 +80,7 @@ public class EditSelectStudent extends AppCompatActivity {
 
                     }
                 };
-                //Uses my EditPasswordRequest.java file to pass New and Old Passwords to update the account
+                //Here we use the request format to access the correct php file while passing the correct variables
                 SelectStudentRequest SelectStudent1 = new SelectStudentRequest(SEmail, Pemail, getString(R.string.url) + "CheckStudent.php", responseListener2);
                 RequestQueue queue = Volley.newRequestQueue(EditSelectStudent.this);
                 queue.add(SelectStudent1);
