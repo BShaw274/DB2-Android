@@ -18,7 +18,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class SignInParent extends AppCompatActivity {
-
+    //Initializes the editTexts and Buttons
     EditText etEmail;
     EditText etPassword;
     Button signInButton;
@@ -28,11 +28,12 @@ public class SignInParent extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in_parent);
 
-
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         etEmail = (EditText) findViewById(R.id.email);
         etPassword = (EditText) findViewById(R.id.password);
         signInButton = (Button) findViewById(R.id.signInButton);
 
+        //signIn button listener
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -52,8 +53,8 @@ public class SignInParent extends AppCompatActivity {
                                 String password = jsonResponse.getString("password");
                                 String phone = jsonResponse.getString("phone");
 
+                                //gets the strings back from the php file
                                 Intent intent = new Intent(SignInParent.this, PageParent.class);
-
                                 intent.putExtra("name", name);
                                 intent.putExtra("email", email);
                                 intent.putExtra("password", password);
@@ -69,7 +70,7 @@ public class SignInParent extends AppCompatActivity {
                         }
                     }
                 };
-
+                //Here we use the request format to access the correct php file while passing the correct variables
                 SignInRequest signInRequest = new SignInRequest(email, password,getString(R.string.url) + "ParentSignIn.php", responseListener);
                 RequestQueue queue = Volley.newRequestQueue(SignInParent.this);
                 queue.add(signInRequest);

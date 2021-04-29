@@ -26,7 +26,7 @@ import java.util.Map;
 
 
 public class EditPasswordAdmin extends AppCompatActivity {
-
+    //Initializes the editTexts and Buttons
     EditText etExistPassword;
     Button confirmButton;
 
@@ -34,8 +34,7 @@ public class EditPasswordAdmin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_password_admin);
-
-        //Gets the values in the EditTextview
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         etExistPassword = (EditText) findViewById(R.id.etExistingPassword);
         confirmButton = (Button) findViewById(R.id.confirmButton);
         //Get information passed into this file
@@ -70,7 +69,7 @@ public class EditPasswordAdmin extends AppCompatActivity {
                         EditPasswordAdmin.this.startActivity(intent);
                     }
                 };
-                //Uses my EditPasswordRequest.java file to pass New and Old Passwords to update the account
+                //Here we use the request format to access the correct php file while passing the correct variables
                 EditPasswordRequest EditPasswordRequest1 = new EditPasswordRequest(NewPassword, email, getString(R.string.url) + "EditPassword.php", responseListener2);
                 RequestQueue queue = Volley.newRequestQueue(EditPasswordAdmin.this);
                 queue.add(EditPasswordRequest1);

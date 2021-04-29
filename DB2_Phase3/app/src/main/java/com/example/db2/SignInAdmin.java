@@ -18,7 +18,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class SignInAdmin extends AppCompatActivity {
-
+    //Initializes the editTexts and Buttons
     EditText etEmail;
     EditText etPassword;
     Button signInButton;
@@ -28,11 +28,12 @@ public class SignInAdmin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in_admin);
 
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         etEmail = (EditText) findViewById(R.id.email);
         etPassword = (EditText) findViewById(R.id.password);
         signInButton = (Button) findViewById(R.id.signInButton);
 
-        // Listener
+        //signIn button listener
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -48,13 +49,14 @@ public class SignInAdmin extends AppCompatActivity {
                             boolean success = jsonResponse.getBoolean("success");
 
                             if(success){
+                                //gets the strings back from the php file
                                 String name = jsonResponse.getString("name");
                                 String email = jsonResponse.getString("email");
                                 String password = jsonResponse.getString("password");
                                 String phone = jsonResponse.getString("phone");
 
+                                //Passes info to next intent
                                 Intent intent = new Intent(SignInAdmin.this, PageAdmin.class);
-
                                 intent.putExtra("name", name);
                                 intent.putExtra("email", email);
                                 intent.putExtra("password", password);
@@ -70,7 +72,7 @@ public class SignInAdmin extends AppCompatActivity {
                         }
                     }
                 };
-
+                //Here we use the request format to access the correct php file while passing the correct variables
                 SignInRequest signInRequest = new SignInRequest(email, password,getString(R.string.url) + "AdminSignIn.php", responseListener);
                 RequestQueue queue = Volley.newRequestQueue(SignInAdmin.this);
                 queue.add(signInRequest);

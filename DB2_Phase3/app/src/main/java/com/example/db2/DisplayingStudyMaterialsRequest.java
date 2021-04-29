@@ -18,7 +18,7 @@ public class DisplayingStudyMaterialsRequest extends StringRequest{
             Log.d("please","Error listener response: " + error.getMessage());
         }
     };
-
+    //Mimiced From Yans code, to pass the variables to php code
     public DisplayingStudyMaterialsRequest(String email, String url, Response.Listener<String> listener){
         super(Method.POST, url, listener, err);
         args = new HashMap<String, String>();

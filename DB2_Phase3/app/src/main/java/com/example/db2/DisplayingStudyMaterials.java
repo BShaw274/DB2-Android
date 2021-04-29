@@ -27,6 +27,8 @@ public class DisplayingStudyMaterials extends AppCompatActivity {
         final String email = intent.getStringExtra("email");
         final LinearLayout userLayout = (LinearLayout) findViewById(R.id.studyLayout);
 
+        //Creation listener
+        //Here we use the get users code from page admin to then display study materials in the same format
         Response.Listener<String> responseListener = new Response.Listener<String>() {
             public void onResponse(String response) {
                 try {
@@ -58,6 +60,7 @@ public class DisplayingStudyMaterials extends AppCompatActivity {
             }
         };
         Log.d("Request sent" , "Attempting the PHP code");
+        //Here we use the request format to access the correct php file while passing the correct variables
         DisplayingStudyMaterialsRequest DisplaySM = new DisplayingStudyMaterialsRequest(email, getString(R.string.url) + "getStudyMaterials.php", responseListener);
         RequestQueue queue = Volley.newRequestQueue(DisplayingStudyMaterials.this);
         queue.add(DisplaySM);

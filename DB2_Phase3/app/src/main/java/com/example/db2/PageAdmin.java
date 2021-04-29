@@ -24,7 +24,7 @@ public class PageAdmin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_admin);
-
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         TextView tvName = (TextView) findViewById(R.id.tvName);
         TextView tvEmail = (TextView) findViewById(R.id.tvEmail);
         TextView tvPassword = (TextView) findViewById(R.id.tvPassword);
@@ -41,7 +41,7 @@ public class PageAdmin extends AppCompatActivity {
         final String phone = intent.getStringExtra("phone");
         final String user = "admin";
 
-
+        //Edit button Listener, Passing the info needed and creating new intent
         editEmailButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -54,7 +54,7 @@ public class PageAdmin extends AppCompatActivity {
                 PageAdmin.this.startActivity(editAdminEmailIntent);
             }
         });
-
+        //Edit button Listener, Passing the info needed and creating new intent
         editPhoneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -67,6 +67,7 @@ public class PageAdmin extends AppCompatActivity {
                 PageAdmin.this.startActivity(editAdminPhoneIntent);
             }
         });
+        //Edit button Listener, Passing the info needed and creating new intent
         editPasswordButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -80,7 +81,7 @@ public class PageAdmin extends AppCompatActivity {
             }
         });
 
-
+        //on Creation of page get users info
         Response.Listener<String> responseListener = new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -111,11 +112,12 @@ public class PageAdmin extends AppCompatActivity {
                 }
             }
         };
-
+        //Here we use the request format to access the correct php file while passing the correct variables
         getUsersRequest getUsers = new getUsersRequest(getString(R.string.url) + "getUserInfo.php", responseListener);
         RequestQueue queue = Volley.newRequestQueue(PageAdmin.this);
         queue.add(getUsers);
 
+        //Set the values of the text boxes
         String title = name + "'s Page";
         tvName.setText(title);
         tvEmail.setText(email);

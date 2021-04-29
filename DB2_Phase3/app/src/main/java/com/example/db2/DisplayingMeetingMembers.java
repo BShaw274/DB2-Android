@@ -34,8 +34,9 @@ public class DisplayingMeetingMembers extends AppCompatActivity {
         final String email = intent.getStringExtra("email");
         final LinearLayout userLayout = (LinearLayout) findViewById(R.id.userLayout);
 
-        //Confirm button listener
-
+        //Creation listener
+        //Here we use the get users code from page admin to then display meeting members in the same format
+        // with plenty oflogs detaining the process
         Response.Listener<String> responseListener = new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -81,6 +82,7 @@ public class DisplayingMeetingMembers extends AppCompatActivity {
             }
         };
         Log.d("At end","Over");
+        //Here we use the request format to access the correct php file while passing the correct variables
         DisplayingMeetingMembersRequest DisplayMMReq = new DisplayingMeetingMembersRequest(email, getString(R.string.url) + "getMeetingMembers.php", responseListener);
         RequestQueue queue = Volley.newRequestQueue(DisplayingMeetingMembers.this);
         queue.add(DisplayMMReq);

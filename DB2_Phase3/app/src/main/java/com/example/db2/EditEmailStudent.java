@@ -26,7 +26,7 @@ import java.util.Map;
 
 
 public class EditEmailStudent extends AppCompatActivity {
-
+    //Initializes the editTexts and Buttons
     EditText etExistEmail;
     Button confirmButton;
 
@@ -34,7 +34,7 @@ public class EditEmailStudent extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_email_student);
-        //Gets the values in the EditTextview
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         etExistEmail = (EditText) findViewById(R.id.etExistingEmail);
         confirmButton = (Button) findViewById(R.id.confirmButton);
         //Get information passed into this file
@@ -44,7 +44,6 @@ public class EditEmailStudent extends AppCompatActivity {
         final String password = intent.getStringExtra("password");
         final String phone = intent.getStringExtra("phone");
         final String user = "student";
-
 
         //Confirm button listener
         confirmButton.setOnClickListener(new View.OnClickListener() {
@@ -67,7 +66,7 @@ public class EditEmailStudent extends AppCompatActivity {
 
                             if(success){
                                 Log.d("In IF stmt","In if ");
-                                //Create New intent to go back to he PageParent after updating Email
+                                //Create New intent to go back to he PageStudent after updating Email
                                 Intent intent = new Intent(EditEmailStudent.this, PageStudent.class);
                                 //Passes values to the new activity
                                 intent.putExtra("name", name );
@@ -88,7 +87,7 @@ public class EditEmailStudent extends AppCompatActivity {
 
                     }
                 };
-                //Uses my EditEmailRequest.java file to pass New and Old Emails to update the account
+                //Here we use the request format to access the correct php file while passing the correct variables
                 EditEmailRequest EditEmailRequest1 = new EditEmailRequest(NewEmail, email, getString(R.string.url) + "EditEmail.php", responseListener2);
                 RequestQueue queue = Volley.newRequestQueue(EditEmailStudent.this);
                 queue.add(EditEmailRequest1);

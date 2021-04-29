@@ -8,16 +8,19 @@ $Email = $_POST['Email'];
 $newPassword = 'EditPassword@gmail.com';
 $oldPassword = 'parent3@Gmail.com';
 */
+
+//Connect to database
 $dbConnection = new mysqli('localhost', 'root', '', 'db2');
 if ($dbConnection->connect_error) {
   die("Connection failed: " . $dbConnection->connect_error);
 }
 
-// Do the SQL value Update
+// Do the SQL value Update and update password
 $stmt = $dbConnection->prepare("UPDATE users SET password = ? Where Email = ?");
 if(false ===$stmt){
   die('prepare() failed: ' . htmlspecialchars($mysqli->error));
 }
+//bind password and email
 $check = $stmt->bind_param("ss", $NewPassword, $Email);
 if(false ===$check){
   die('bind_param() failed: ' . htmlspecialchars($stmt->error));

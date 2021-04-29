@@ -27,7 +27,7 @@ public class PageStudent extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_student);
-
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         TextView tvName = (TextView) findViewById(R.id.tvName);
         TextView tvEmail = (TextView) findViewById(R.id.tvEmail);
         TextView tvPassword = (TextView) findViewById(R.id.tvPassword);
@@ -38,7 +38,7 @@ public class PageStudent extends AppCompatActivity {
         Button meetingMembers = (Button) findViewById(R.id.meetingMembers);
         Button studyMaterials = (Button) findViewById(R.id.studyMaterials);
         final LinearLayout userLayout = (LinearLayout) findViewById(R.id.userLayout);
-
+        //Gets info passed from last intent
         Intent intent = getIntent();
         final String name = intent.getStringExtra("name");
         final String email = intent.getStringExtra("email");
@@ -46,7 +46,7 @@ public class PageStudent extends AppCompatActivity {
         final String phone = intent.getStringExtra("phone");
         final String user = "parent";
 
-
+        //Edit button Listener, Passing the info needed and creating new intent
         editEmailButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -59,7 +59,7 @@ public class PageStudent extends AppCompatActivity {
                 PageStudent.this.startActivity(editStudentEmailIntent);
             }
         });
-
+        //Edit button Listener, Passing the info needed and creating new intent
         editPhoneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -72,6 +72,7 @@ public class PageStudent extends AppCompatActivity {
                 PageStudent.this.startActivity(editStudentPhoneIntent);
             }
         });
+        //Edit button Listener, Passing the info needed and creating new intent
         editPasswordButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -84,6 +85,7 @@ public class PageStudent extends AppCompatActivity {
                 PageStudent.this.startActivity(editStudentPasswordIntent);
             }
         });
+
         meetingMembers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -100,9 +102,34 @@ public class PageStudent extends AppCompatActivity {
                 PageStudent.this.startActivity(DisplayingStudyMaterials);
             }
         });
+        Button MeetingJoinSelection = (Button) findViewById(R.id.JoinMeetingButton);
+        MeetingJoinSelection.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent MeetingJoinSelection = new Intent(PageStudent.this, MeetingJoinSelection.class);
+                MeetingJoinSelection.putExtra("email", email);
+                MeetingJoinSelection.putExtra("password", password);
+                MeetingJoinSelection.putExtra("phone", phone);
+                MeetingJoinSelection.putExtra("name", name);
+                MeetingJoinSelection.putExtra("user", user);
+                PageStudent.this.startActivity(MeetingJoinSelection);
+            }
+        });
+        Button MeetingQuitSelection = (Button) findViewById(R.id.QuitMeetingButton);
+        MeetingQuitSelection.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent MeetingQuitSelection = new Intent(PageStudent.this, MeetingQuitSelection.class);
+                MeetingQuitSelection.putExtra("email", email);
+                MeetingQuitSelection.putExtra("password", password);
+                MeetingQuitSelection.putExtra("phone", phone);
+                MeetingQuitSelection.putExtra("name", name);
+                MeetingQuitSelection.putExtra("user", user);
+                PageStudent.this.startActivity(MeetingQuitSelection);
+            }
+        });
 
-
-
+        //Set the values of the text boxes
         String title = name + "'s Page";
         tvName.setText(title);
         tvEmail.setText(email);

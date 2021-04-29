@@ -19,6 +19,7 @@ public class getUsersRequest extends StringRequest {
             Log.d("PError","Error listener response: " + error.getMessage());
         }
     };
+    //From Yans code, to pass the variables to php code
     public getUsersRequest(String url, Response.Listener<String> listener){
         super(Request.Method.POST, url, listener, err);
         args = new HashMap<String, String>();

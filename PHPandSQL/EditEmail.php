@@ -15,7 +15,7 @@ if ($dbConnection->connect_error) {
   die("Connection failed: " . $dbConnection->connect_error);
 }
 
-// Do the SQL value Update
+// Do the SQL value Update which updates the older email to become the new email entered
 $stmt = $dbConnection->prepare("UPDATE users SET email = ? Where email = ?");
 if(false ===$stmt){
   //die('prepare() failed: ' . htmlspecialchars($mysqli->error));
@@ -23,6 +23,7 @@ if(false ===$stmt){
     echo json_encode($response);
 //echo " Echoing Email update: ".$response["success"];
 }
+//bind old and new email for execute
 $check = $stmt->bind_param("ss", $newEmail, $oldEmail);
 if(false ===$check){
   //die('bind_param() failed: ' . htmlspecialchars($stmt->error));
@@ -36,6 +37,7 @@ if(false ===$check){
     $response["success"] = "false";
       echo json_encode($response);
 }
+//return true
 else {
   $response["success"] = "true";
   echo json_encode($response);

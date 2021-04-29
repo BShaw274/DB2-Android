@@ -19,6 +19,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class EditStudentInfo extends AppCompatActivity {
+    //Initializes the editTexts and Buttons
     EditText etSEmail;
     EditText etSPassword;
     EditText etSPhone;
@@ -28,7 +29,7 @@ public class EditStudentInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_student_info);
-        //Gets the values in the EditTextview
+        //Set the buttons and text to be equal to the actual values from the activity's layout
         etSEmail = (EditText) findViewById(R.id.etSEmail);
         etSPassword = (EditText) findViewById(R.id.etSPassword);
         etSPhone = (EditText) findViewById(R.id.etSPhone);
@@ -81,7 +82,7 @@ public class EditStudentInfo extends AppCompatActivity {
 
                     }
                 };
-                //Uses my EditPasswordRequest.java file to pass New and Old Passwords to update the account
+                //Here we use the request format to access the correct php file while passing the correct variables
                 EditAllRequest EditAll1 = new EditAllRequest(OldSEmail, NewSEmail,NewSPassword,NewSPhone, getString(R.string.url) + "EditAll.php", responseListener2);
                 RequestQueue queue = Volley.newRequestQueue(EditStudentInfo.this);
                 queue.add(EditAll1);

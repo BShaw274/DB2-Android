@@ -12,7 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DisplayingStudyMaterials"></activity>
+        <activity android:name=".MeetingQuitMentee"></activity>
+        <activity android:name=".MeetingQuitMentor" />
+        <activity android:name=".MeetingQuitSelection" />
+        <activity android:name=".MeetingJoinMentor" />
+        <activity android:name=".MeetingJoinMentee" />
+        <activity android:name=".MeetingJoinSelection" />
+        <activity android:name=".DisplayingStudyMaterials" />
         <activity android:name=".DisplayingMeetingMembers" />
         <activity android:name=".EditStudentInfo" />
         <activity android:name=".EditSelectStudent" />
